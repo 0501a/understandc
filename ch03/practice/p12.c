@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main (void){
+	int no;
+	printf("请输入一个整数");
+	scanf("%d",&no);
+	switch (no%2){
+	case 1:
+	printf("该整数是奇数\n");
+	break;
+	case 0:
+	printf("该整数是偶数\n");
+	break;
+	default:
+	break;
+}
+	return 0;
+}
