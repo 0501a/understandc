@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(void){
-	int no,i;
+	int no;
 	printf("请输入一个正整数 :");
 	scanf("%d",&no);
-	i=0;
-	while(i <= no){
-		printf("%d",i++ );
+	while(no-- > 0){
+		putchar('*');
 		printf("\n");
 	}
 	return 0;

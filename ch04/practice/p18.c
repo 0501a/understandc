@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main(void){
-	int no,i;
+	int no,i=0;
 	printf("请输入一个正整数 :");
 	scanf("%d",&no);
-	i=0;
-	while(i <= no){
-		printf("%d",i++ );
-		printf("\n");
+	while(i<no){
+		printf("*");
+		i++;
+		if(i%5==0) printf("\n");
 	}
+	printf("\n");
 	return 0;
 }
